@@ -11,13 +11,19 @@ import SwiftUI
 struct LandmarkList : View {
     var body: some View {
 
-        // Lists work with identifiable data.
-        // You can make your data identifiable in one of two ways:
-        // - by calling the identified(by:) method with a key path to a property that uniquely identifies each element `landmarkData.identified(by: \.id)`
-        // - by making your data type conform to the Identifiable protocol.
+        NavigationView {
 
-        List(landmarkData) { landmark in
-            LandmarkRow(landmark: landmark)
+            // Lists work with identifiable data.
+            // You can make your data identifiable in one of two ways:
+            // - by calling the identified(by:) method with a key path to a property that uniquely identifies each element `landmarkData.identified(by: \.id)`
+            // - by making your data type conform to the Identifiable protocol.
+
+            List(landmarkData) { landmark in
+                NavigationButton(destination: LandmarkDetail(landmark: landmark)) {
+                    LandmarkRow(landmark: landmark)
+                }
+            }
+                .navigationBarTitle(Text("Landmarks"))
         }
     }
 }
