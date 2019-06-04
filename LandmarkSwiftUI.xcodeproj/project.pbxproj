@@ -14,6 +14,7 @@
 		80741C4F22A654C200B31A06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80741C4E22A654C200B31A06 /* Preview Assets.xcassets */; };
 		80741C5222A654C200B31A06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80741C5022A654C200B31A06 /* LaunchScreen.storyboard */; };
 		80741C5A22A659AA00B31A06 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80741C5922A659AA00B31A06 /* CircleImage.swift */; };
+		80741C5C22A65F4700B31A06 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80741C5B22A65F4700B31A06 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		80741C5122A654C200B31A06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80741C5322A654C200B31A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80741C5922A659AA00B31A06 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		80741C5B22A65F4700B31A06 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				80741C4522A654BF00B31A06 /* AppDelegate.swift */,
 				80741C4722A654BF00B31A06 /* SceneDelegate.swift */,
 				80741C4922A654BF00B31A06 /* ContentView.swift */,
+				80741C5B22A65F4700B31A06 /* MapView.swift */,
 				80741C4B22A654C200B31A06 /* Assets.xcassets */,
 				80741C5922A659AA00B31A06 /* CircleImage.swift */,
 				80741C5022A654C200B31A06 /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 			files = (
 				80741C4622A654BF00B31A06 /* AppDelegate.swift in Sources */,
 				80741C5A22A659AA00B31A06 /* CircleImage.swift in Sources */,
+				80741C5C22A65F4700B31A06 /* MapView.swift in Sources */,
 				80741C4822A654BF00B31A06 /* SceneDelegate.swift in Sources */,
 				80741C4A22A654BF00B31A06 /* ContentView.swift in Sources */,
 			);
