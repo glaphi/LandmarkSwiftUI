@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LandmarkDetail.swift
 //  LandmarkSwiftUI
 //
 //  Created by Glafira Privalova on 4.6.2019.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct LandmarkDetail : View {
     var body: some View {
         VStack {
 
@@ -33,9 +33,9 @@ struct ContentView : View {
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct LandmarkDetail_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkDetail()
     }
 }
 #endif
