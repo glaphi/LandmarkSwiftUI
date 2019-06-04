@@ -13,10 +13,10 @@ struct LandmarkList : View {
 
         // Lists work with identifiable data.
         // You can make your data identifiable in one of two ways:
-        // - by calling the identified(by:) method with a key path to a property that uniquely identifies each element
+        // - by calling the identified(by:) method with a key path to a property that uniquely identifies each element `landmarkData.identified(by: \.id)`
         // - by making your data type conform to the Identifiable protocol.
 
-        List(landmarkData.identified(by: \.id)) { landmark in
+        List(landmarkData) { landmark in
             LandmarkRow(landmark: landmark)
         }
     }
