@@ -8,6 +8,8 @@ DerivedData/
 index/
 Index/
 
+.DS_Store
+
 ## Various settings
 *.pbxuser
 !default.pbxuser

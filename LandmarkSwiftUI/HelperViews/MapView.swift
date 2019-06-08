@@ -13,7 +13,8 @@ struct MapView : UIViewRepresentable {
     var coordinate: CLLocationCoordinate2D
 
     func makeUIView(context: Context) -> MKMapView {
-        MKMapView(frame: .zero)
+        print("creating map view ", coordinate)
+        return MKMapView(frame: .zero)
     }
 
     func updateUIView(_ uiView: MKMapView, context: Context) {
@@ -21,6 +22,11 @@ struct MapView : UIViewRepresentable {
         let region = MKCoordinateRegion(center: coordinate, span: span)
         uiView.setRegion(region, animated: true)
     }
+    
+    static func dismantleUIView(_ uiView: MKMapView, coordinator: ()) {
+        print("view should be dismantled")
+    }
+
 }
 
 #if DEBUG

@@ -15,6 +15,21 @@
         "imageName": "turtlerock"
     },
     {
+        "name": "Caves of Kaliya",
+        "category": "Ruins",
+        "city": "Jungle",
+        "state": "India",
+        "id": 9001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "The River Ganges",
+        "coordinates": {
+            "longitude": 30.983333,
+            "latitude": 78.916667
+        },
+        "imageName": "cavesofkaliya"
+    },
+    {
         "name": "Silver Salmon Creek",
         "category": "Lakes",
         "city": "Port Alsworth",
